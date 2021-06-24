@@ -1,0 +1,49 @@
+
+
+.im2 img {
+   
+    align-items: center;
+    margin-left:100px;
+    margin-top:30px;
+    position:relative;
+    
+   
+
+    
+}
+.im1{
+    flex:2;
+    
+}
+.container2{
+   
+    flex:1;
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.container0{
+position:relative;
+display:flex;
+margin-left:200px;
+}
+.im2 h3{
+    position:relative;
+    
+    left:150px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:25px;
+}
+
+.im2 button{
+    position:relative;
+    width:20%;
+    left:150px;
+    
+}
+.btun{
+    position:absolute;
+    left:450px;
+    top:560px;
+}

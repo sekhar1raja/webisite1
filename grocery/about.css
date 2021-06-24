@@ -1,0 +1,180 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+.line{
+    width:150px;
+    background-color:#cca086;
+    height:30px;
+   transform:translate(620px,0px);
+}
+
+
+
+
+
+
+.block-about{
+    background-color: white;
+    display:flex;
+    justify-content: space-evenly;
+    width:100%;
+  margin-top:50px;
+  gap:2em;
+  padding:50px;
+   
+
+}
+.block-1-about{
+    background-color:rgb(189, 139, 124);
+   
+    width:30%;
+    display: block;
+    box-sizing: border-box;
+}
+.block-1-about,
+.block-2-about,.block-3-about p{
+    text-align:center;
+    font-family:'Courier New', Courier, monospace;
+}
+.block-about-h1{
+font-family:'Lobster', cursive;
+
+}
+
+.block-2-about{
+    width:30%;
+    box-sizing: border-box;
+    display: block;
+    background-color:rgb(130, 160, 187);
+
+}
+.block-3-about {
+    width:30%;
+    box-sizing: border-box;
+    display: block;
+    background-color: rgb(92, 141, 125);
+  
+}
+.profile{
+    display:flex;
+    margin-top:40px;
+    gap:2em;
+    flex-wrap: wrap;
+    
+}
+.profile-1 img{
+    width:300px;
+    height:300px;
+    margin-left:20px;
+    margin-top:10px;
+    
+
+}
+
+   
+    
+
+.profile-1{
+    flex:1;
+}
+.profile-2{
+    flex:2;
+    width:700px;
+}
+.profile-2 p{
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+
+.oblique{
+    display:flex;
+    border-top:40px solid #76a1819a;
+    justify-content: space-between;
+    gap:3em;
+    width:1000px;
+    margin-left:200px;
+    margin-top:40px;
+    flex-wrap: wrap;
+    cursor: pointer;
+   
+    
+}
+.oblique-1{
+    background-color:rgb(248, 248, 247);
+    width:200px;
+    height:200px;
+    border-radius:15px;
+    transition:all 1s ease-in-out;
+    box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.oblique-1 img{
+    width:200px;
+    height:150px;
+}
+.oblique-1:hover{
+    transform:rotate(-15deg);
+
+}
+.oblique-2{
+    background-color:rgb(250, 249, 248);
+    width:200px;
+    height:200px;
+    border-radius:15px;
+    transition:all 1s ease-in-out;
+    box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+
+
+}
+.oblique-2 img{
+    width:200px;
+    height:150px;
+}
+.oblique-2:hover{
+    transform:rotate(-10deg);
+
+}
+.oblique-3{
+   
+    background-color:rgb(252, 251, 250);
+    width:200px;
+    height:200px;
+    border-radius:15px;
+    transition:all 1s ease-in-out;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.oblique h3{
+    text-align: center;
+    font-size:20px;
+    font-family:'Dancing Script', cursive;
+}
+.oblique-3 img{
+    width:200px;
+    height:150px;
+}
+.oblique-3:hover{
+    transform:rotate(-10deg);
+
+}
+.oblique-4{
+    background-color:rgb(248, 248, 247);
+    width:200px;
+    height:200px;
+    border-radius:15px;
+    transition:all 1s ease-in-out;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.oblique-4 img{
+    width:200px;
+    height:150px;
+}
+.oblique-4:hover{
+    transform:rotate(-10deg);
+
+}

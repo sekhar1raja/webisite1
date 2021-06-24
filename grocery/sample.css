@@ -1,0 +1,129 @@
+#myBtnContainerr{
+    margin-top:550px;
+    margin-left:100px;
+    display: flex;
+   flex-direction: column;
+    margin:0px;
+    border-top: 0.5px solid rgba(150, 146, 146, 0.568);
+ float:left;
+}
+
+#myBtnContainerr a{
+    margin-left:15px;
+    color:#070e0c;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-align:start;
+    text-decoration: none;
+}
+#myBtnContainerr p{
+    margin-left:15px;
+    color:#070e0c;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-align:start;
+}
+#myBtnContainerr a:hover{
+    color:#3e5e55;
+    margin-left:2px;
+  
+     
+
+}
+#myBtnContainerr button{
+    border:none;
+    cursor: pointer;
+    margin-top:5px;
+    background-color: white;
+
+}
+.container {
+    display: flex;
+}
+.container .filterDiv{
+    width:300px;
+    height:350px;
+}
+.filterDiv .box-4 img {
+    width:200px;
+    padding:10px;
+
+}
+ .SALE{
+    background-color:#266150e0;
+    position:absolute;
+    top:20px;
+height:20px;
+    left:10px;
+}
+.SALE h4{
+    margin:0px;
+    padding:2px;
+}
+.box-4{
+    position:relative;
+    font-family:'Aldrich', sans-serif;
+    font-weight: 500;
+}
+.box-4 p {
+   
+    margin:2px;
+}
+.box-4 h3{
+    margin:2px;
+
+
+}
+
+.box-4 input .i1{
+    color:black;
+}
+.box-4 input  {
+    -webkit-appearance: none;
+    border: none;
+    text-align: center;
+    width: 32px;
+    height:15px;
+    font-size: 20px;
+    color: #266150;
+    font-weight: bolder;
+    
+    padding-top: 10px;
+  }
+  .cart{
+    border: 1px solid #266150;
+     width:100px;
+     margin-left:50px;
+    }
+    
+  button:focus,
+  input:focus {
+    outline:0;
+  }
+  .box-4 .ADD{
+     
+      border:none;
+      background-color: #266150;
+      color:white;
+      font-family: 'Aldrich', sans-serif;
+      padding:5px;
+      margin-top:10px;
+      
+  }
+  .plus-btn{
+   height:20px;
+   padding:5px;
+   box-sizing: border-box;
+    border:none;
+    
+    
+}
+.minus-btn{
+    height:20px;
+    padding:5px;
+    border: none;
+   
+    
+}

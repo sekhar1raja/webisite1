@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>sample</title>
+        <link rel="stylesheet" href="sample.css">
+        <link href='https://css.gg/math-plus.css' rel='stylesheet'>
+<link href='https://css.gg/math-minus.css' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css2?family=Actor&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">  
+      
+    </head>
+<style>
+.filterDiv {
+  
+ 
+  color: #0c0c0c;
+
+  text-align: center;
+  margin: 2px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* Style the buttons */
+
+</style>
+<body>
+
+<h2>Filter DIV Elements</h2>
+
+
+<h3>Categories</h3>
+<div id="myBtnContainerr">
+    <button class="btn active" onclick="filterSelection('all')">
+    
+        <p><a href="#"> Special offers</p></a>
+   </button>
+    <button class="btn" onclick="filterSelection('vegetables')">
+    
+    <p><a href="#"> Vegetables</p></a></button>
+    <button class="btn" onclick="filterSelection('fruits')">
+        <p><a href="#"> Fruits</p></a>
+    </button>
+    <button class="btn" onclick="filterSelection('fruits')"> 
+        <p><a href="#">Organic Fruits/Vegetables</p></a>
+   </button>
+    <button class="btn" onclick="filterSelection('fruits')"> 
+  
+        <p><a href="#">Herbs & Seasoning</p></a>
+    <button class="btn" onclick="filterSelection('fruits')"> 
+   
+        <p><a href="#">Groceries</p></a>
+    </button>
+    
+</div>
+
+
+<div class="container">
+  <div class="filterDiv vegetables">
+    <div class="box-4">
+        <img src="/major project/images/photo-1585138774489-caf6e48633b5.jfif">
+        <h3>dragon fruit</h3>
+        <p>price: <input style="color:black; font-size:15px;" type="text" name="name" value="100"></p>
+        <div class="cart">
+            <button class="plus-btn" type="button" name="button">
+                <i class="gg-math-plus"></i>
+            </button>
+            <input class="i2" type="text" name="name" value="1">
+            <button class="minus-btn" type="button" name="button">
+                <i class="gg-math-minus"></i>
+            </button>
+        </div>
+        <button class="ADD" type="text"type="button" name="button">Add to cart</button>
+    <div class="SALE">
+        <h4> SALE</h4> 
+    </div>
+    </div>
+  </div>
+
+  <div class="filterDiv fruits">
+    <div class="box-4">
+        <img src="/major project/images/photo-1585138774489-caf6e48633b5.jfif">
+        <h3>dragon fruit</h3>
+        <p>price: <input style="color:black; font-size:15px;" type="text" name="name" value="100"></p>
+        <div class="cart">
+            <button class="plus-btn" type="button" name="button">
+                <i class="gg-math-plus"></i>
+            </button>
+            <input class="i2" type="text" name="name" value="1">
+            <button class="minus-btn" type="button" name="button">
+                <i class="gg-math-minus"></i>
+            </button>
+        </div>
+        <button class="ADD" type="text"type="button" name="button">Add to cart</button>
+    <div class="SALE">
+        <h4> SALE</h4> 
+    </div>
+    </div>
+  </div>
+  <div class="filterDiv cars">
+    <div class="box-4">
+        <img src="/major project/images/photo-1585138774489-caf6e48633b5.jfif">
+        <h3>dragon fruit</h3>
+        <p>price: <input style="color:black; font-size:15px;" type="text" name="name" value="100"></p>
+        <div class="cart">
+            <button class="plus-btn" type="button" name="button">
+                <i class="gg-math-plus"></i>
+            </button>
+            <input class="i2" type="text" name="name" value="1">
+            <button class="minus-btn" type="button" name="button">
+                <i class="gg-math-minus"></i>
+            </button>
+        </div>
+        <button class="ADD" type="text"type="button" name="button">Add to cart</button>
+    <div class="SALE">
+        <h4> SALE</h4> 
+    </div>
+    </div>
+  </div>
+  <div class="filterDiv colors"><div class="box-4">
+    <img src="/major project/images/photo-1585138774489-caf6e48633b5.jfif">
+    <h3>dragon fruit</h3>
+    <p>price: <input style="color:black; font-size:15px;" type="text" name="name" value="100"></p>
+    <div class="cart">
+        <button class="plus-btn" type="button" name="button">
+            <i class="gg-math-plus"></i>
+        </button>
+        <input class="i2" type="text" name="name" value="1">
+        <button class="minus-btn" type="button" name="button">
+            <i class="gg-math-minus"></i>
+        </button>
+    </div>
+    <button class="ADD" type="text"type="button" name="button">Add to cart</button>
+<div class="SALE">
+    <h4> SALE</h4> 
+</div>
+</div></div>
+  <div class="filterDiv cars animals"><div class="box-4">
+    <img src="/major project/images/photo-1585138774489-caf6e48633b5.jfif">
+    <h3>dragon fruit</h3>
+    <p>price: <input style="color:black; font-size:15px;" type="text" name="name" value="100"></p>
+    <div class="cart">
+        <button class="plus-btn" type="button" name="button">
+            <i class="gg-math-plus"></i>
+        </button>
+        <input class="i2" type="text" name="name" value="1">
+        <button class="minus-btn" type="button" name="button">
+            <i class="gg-math-minus"></i>
+        </button>
+    </div>
+    <button class="ADD" type="text"type="button" name="button">Add to cart</button>
+<div class="SALE">
+    <h4> SALE</h4> 
+</div>
+</div></div>
+  <div class="filterDiv colors"><div class="box-4">
+    <img src="/major project/images/photo-1585138774489-caf6e48633b5.jfif">
+    <h3>dragon fruit</h3>
+    <p>price: <input style="color:black; font-size:15px;" type="text" name="name" value="100"></p>
+    <div class="cart">
+        <button class="plus-btn" type="button" name="button">
+            <i class="gg-math-plus"></i>
+        </button>
+        <input class="i2" type="text" name="name" value="1">
+        <button class="minus-btn" type="button" name="button">
+            <i class="gg-math-minus"></i>
+        </button>
+    </div>
+    <button class="ADD" type="text"type="button" name="button">Add to cart</button>
+<div class="SALE">
+    <h4> SALE</h4> 
+</div>
+</div></div>
+  <div class="filterDiv animals"><div class="box-4">
+    <img src="/major project/images/photo-1585138774489-caf6e48633b5.jfif">
+    <h3>dragon fruit</h3>
+    <p>price: <input style="color:black; font-size:15px;" type="text" name="name" value="100"></p>
+    <div class="cart">
+        <button class="plus-btn" type="button" name="button">
+            <i class="gg-math-plus"></i>
+        </button>
+        <input class="i2" type="text" name="name" value="1">
+        <button class="minus-btn" type="button" name="button">
+            <i class="gg-math-minus"></i>
+        </button>
+    </div>
+    <button class="ADD" type="text"type="button" name="button">Add to cart</button>
+<div class="SALE">
+    <h4> SALE</h4> 
+</div>
+</div></div>
+  <div class="filterDiv animals"><div class="box-4">
+    <img src="/major project/images/photo-1585138774489-caf6e48633b5.jfif">
+    <h3>dragon fruit</h3>
+    <p>price: <input style="color:black; font-size:15px;" type="text" name="name" value="100"></p>
+    <div class="cart">
+        <button class="plus-btn" type="button" name="button">
+            <i class="gg-math-plus"></i>
+        </button>
+        <input class="i2" type="text" name="name" value="1">
+        <button class="minus-btn" type="button" name="button">
+            <i class="gg-math-minus"></i>
+        </button>
+    </div>
+    <button class="ADD" type="text"type="button" name="button">Add to cart</button>
+<div class="SALE">
+    <h4> SALE</h4> 
+</div>
+</div></div>
+  <div class="filterDiv fruits">
+    <div class="box-4">
+        <img src="/major project/images/photo-1585138774489-caf6e48633b5.jfif">
+        <h3>dragon fruit</h3>
+        <p>price: <input style="color:black; font-size:15px;" type="text" name="name" value="100"></p>
+        <div class="cart">
+            <button class="plus-btn" type="button" name="button">
+                <i class="gg-math-plus"></i>
+            </button>
+            <input class="i2" type="text" name="name" value="1">
+            <button class="minus-btn" type="button" name="button">
+                <i class="gg-math-minus"></i>
+            </button>
+        </div>
+        <button class="ADD" type="text"type="button" name="button">Add to cart</button>
+    <div class="SALE">
+        <h4> SALE</h4> 
+    </div>
+    </div>
+  </div>
+  <div class="filterDiv fruits animals"><div class="box-4">
+    <img src="/major project/images/photo-1585138774489-caf6e48633b5.jfif">
+    <h3>dragon fruit</h3>
+    <p>price: <input style="color:black; font-size:15px;" type="text" name="name" value="100"></p>
+    <div class="cart">
+        <button class="plus-btn" type="button" name="button">
+            <i class="gg-math-plus"></i>
+        </button>
+        <input class="i2" type="text" name="name" value="1">
+        <button class="minus-btn" type="button" name="button">
+            <i class="gg-math-minus"></i>
+        </button>
+    </div>
+    <button class="ADD" type="text"type="button" name="button">Add to cart</button>
+<div class="SALE">
+    <h4> SALE</h4> 
+</div>
+</div></div>
+  <div class="filterDiv fruits"><div class="box-4">
+    <img src="/major project/images/photo-1585138774489-caf6e48633b5.jfif">
+    <h3>dragon fruit</h3>
+    <p>price: <input style="color:black; font-size:15px;" type="text" name="name" value="100"></p>
+    <div class="cart">
+        <button class="plus-btn" type="button" name="button">
+            <i class="gg-math-plus"></i>
+        </button>
+        <input class="i2" type="text" name="name" value="1">
+        <button class="minus-btn" type="button" name="button">
+            <i class="gg-math-minus"></i>
+        </button>
+    </div>
+    <button class="ADD" type="text"type="button" name="button">Add to cart</button>
+<div class="SALE">
+    <h4> SALE</h4> 
+</div>
+</div></div>
+  <div class="filterDiv fruits"><div class="box-4">
+    <img src="/major project/images/photo-1585138774489-caf6e48633b5.jfif">
+    <h3>dragon fruit</h3>
+    <p>price: <input style="color:black; font-size:15px;" type="text" name="name" value="100"></p>
+    <div class="cart">
+        <button class="plus-btn" type="button" name="button">
+            <i class="gg-math-plus"></i>
+        </button>
+        <input class="i2" type="text" name="name" value="1">
+        <button class="minus-btn" type="button" name="button">
+            <i class="gg-math-minus"></i>
+        </button>
+    </div>
+    <button class="ADD" type="text"type="button" name="button">Add to cart</button>
+
+</div></div>
+  <div class="filterDiv animals"><div class="box-4">
+    <img src="/major project/images/photo-1585138774489-caf6e48633b5.jfif">
+    <h3>dragon fruit</h3>
+    <p>price: <input style="color:black; font-size:15px;" type="text" name="name" value="100"></p>
+    <div class="cart">
+        <button class="plus-btn" type="button" name="button">
+            <i class="gg-math-plus"></i>
+        </button>
+        <input class="i2" type="text" name="name" value="1">
+        <button class="minus-btn" type="button" name="button">
+            <i class="gg-math-minus"></i>
+        </button>
+    </div>
+    <button class="ADD" type="text"type="button" name="button">Add to cart</button>
+
+</div></div>
+</div>
+
+
+
+
+
+
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+
+
+<div class="">
+    <button class="btn" type="button"> 
+        <button class="plus-btn" type="button" name="button">
+            <i class="gg-math-plus"></i>
+        </button>
+        
+         <input class="i2" type="text" name="name" value="1">
+         <button class="minus-btn" type="button" name="button">
+            <i class="gg-math-minus"></i>
+        </button>
+        </button>
+</div>
+
+
+<div class="cart">
+    <button class="plus-btn" type="button" name="button">
+        <i class="gg-math-plus"></i>
+    </button>
+    <input class="i2" type="text" name="name" value="1">
+    <button class="minus-btn" type="button" name="button">
+        <i class="gg-math-minus"></i>
+    </button>
+</div>
+</body>
+</html>
